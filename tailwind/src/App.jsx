@@ -1,10 +1,16 @@
 import React from 'react'
 import Container from './Components/Container'
+import "./App.css"
 
 const App = () => {
   return (
-    <div>
-      <BgRe/>
+   <div className='container'>
+      <div className='layout'>
+        <div className='navbar'>
+          <div className='logo'>Logo</div>
+          <div className='button'>Buttons</div>
+        </div>
+      </div>
     </div>
   )
 }

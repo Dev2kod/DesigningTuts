@@ -1,6 +1,28 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container{
+}
+
+.layout{
+  height: 100vh;
+  background-image: linear-gradient(to bottom,white,skyblue,white);
+}
 
 .wrapper{
-  background: red;
-  max-width: 1200px;
+  max-width: 800px ;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.btn{
+
 }
